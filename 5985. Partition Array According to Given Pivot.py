@@ -4,6 +4,11 @@ less = []
 equal = []
 greater = []
 
+
+
+
+
+
 for i in nums:
     if i >pivot:
         greater.append(i)
