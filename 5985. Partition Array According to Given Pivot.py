@@ -4,16 +4,11 @@ less = []
 equal = []
 greater = []
 
-
-
-
-
-
 for i in nums:
-    if i >pivot:
+    if i > pivot:
         greater.append(i)
-    elif i<pivot:
+    elif i < pivot:
         less.append(i)
     else:
         equal.append(i)
-print(less+equal+greater)
+print(less + equal + greater)
